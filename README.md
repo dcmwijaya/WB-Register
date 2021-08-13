@@ -14,7 +14,7 @@
 
 # Multiplatform-Bot-Register-With-Website-PHP-Native-Ngrok
 1. Download repository ini
-2. Copy semua file yang ada didalam folder download an tadi lalu masukkan ke -> C:\xampp\htdocs
+2. Copy semua file yang ada didalam folder yang telah di download tadi lalu pastekan ke -> C:\xampp\htdocs
 3. Nyalakan XAMPP -> apache & mySQL
 4. Copy API Bot Telegram Anda lalu pastekan kedalam folder (direktori) : WEB_BOT_2020 -> Bot -> private -> token.txt
 5. Ketikan pada NGROK.exe -> ngrok http 80 -> lalu tekan enter
