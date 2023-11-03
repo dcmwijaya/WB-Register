@@ -21,7 +21,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 ## Features / Framework / Tools
 | Part | Description |
 | --- | --- |
-| Features | Create, Read, Update, Delete, Search, Count Data |
+| Features | Create, Read, Update, Delete, Search, Count Data, Validation |
 | Code | PHP, HTML, CSS, JS, SQL |
 | Framework | Bootstrap 4, Botman |
 | Tools | XAMPP (PHP Version 7.4) & Ngrok |
@@ -115,38 +115,34 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 ## Highlight
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th width="280">Create</th>
+<th width="280">Read</th>
+<th width="280">Update</th>
 </tr>
 <tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-</tr>
-</table>
-<table>
-<tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
-</tr>
-<tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
+<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/92ac8c74-da70-4663-bf5d-21018bbde181" alt="create"></td>
+<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/b0f31465-6352-4297-b56d-c69524e509d0" alt="read"></td>
+<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/4b7309be-7381-437d-bb88-69fd70a779e3" alt="update"></td>
 </tr>
 </table>
 <table>
 <tr>
-<th width="280"></th>
-<th width="280"></th>
-<th width="280"></th>
+<th width="280">Delete</th>
+<th width="280">Search</th>
 </tr>
 <tr>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
-<td><img src="" alt=""></td>
+<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/ff4bcf13-164e-47f6-abaf-dba3f30f9423" alt="delete"></td>
+<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/68a5ae62-1861-4609-82ac-738d2ff62ea4" alt="search"></td>
+</tr>
+</table>
+<table>
+<tr>
+<th colspan="3">Telegram Bot</th>
+</tr>
+<tr>
+<td width="280"><img src="" alt="TGbot-1"></td>
+<td width="280"><img src="" alt="TGbot-2"></td>
+<td width="280"><img src="" alt="TGbot-3"></td>
 </tr>
 </table>
 
