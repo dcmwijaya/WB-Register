@@ -21,8 +21,9 @@ Creating multiplatform applications: Bot-Website Register for new member registr
 ## Features / Framework / Tools
 | Part | Description |
 | --- | --- |
-| Features |  |
-| Framework |  |
+| Features | Create, Read, Update, Delete, Search, Count Data |
+| Code | PHP, HTML, CSS, JS, SQL |
+| Framework | Bootstrap 4 |
 | Tools | XAMPP (PHP Version 7.4) & Ngrok |
 
 <br>
