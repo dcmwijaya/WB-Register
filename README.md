@@ -12,9 +12,9 @@
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap4-purple.svg?&logo=bootstrap&logoColor=white)
 ![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
 
-# Bot-Website-Register
+# WB-Register
 <strong>Web Programming Final Project</strong><br>
-Creating multiplatform applications: Bot-Website Register for new member registration of UPN Veteran Jatim Robotics community.
+Creating multiplatform applications: Website-Bot Register for new member registration of UPN Veteran Jatim Robotics community.
 
 <br>
 
@@ -39,7 +39,7 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    ```bash
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-
+   
 <br>
 
 ## Database
@@ -49,32 +49,36 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    localhost/phpmyadmin/
    ```
 3. Create a database called "wb_register" on local.<br>
-4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.
+4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the WB-Register/assets/sql directory.
 
 <br>
 
 ## Running
 1. Download this repository.<br>
-2. Move the "Bot-Website-Register" directory into the htdocs directory, whose details you can find out as follows:
+2. Move the "WB-Register" directory into the htdocs directory, whose details you can find out as follows:
    ```bash
    C:\xampp\htdocs
    ```
-
+3. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br>
+4. Connect the ngrok account in the following way:<br>
+   ```bash
+   ngrok config add-authtoken [YOUR AUTHTOKEN]
+   ```
 3. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
-<strong>Bot-Website-Register -> multiplatform -> bot -> private -> token.txt</strong>
+<strong>WB-Register -> multiplatform -> tgbot -> private -> token.txt</strong>
 4. Type the following command into NGROK.exe and press enter:
    ```bash
    ngrok http 80
    ```
    
 5. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
-<strong>Bot-Website-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)</strong>
+<strong>WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)</strong>
 6. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
 <strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
 
    • Writing example:
    ```bash
-   curl -d url=https://24c3407dbd51.ngrok.io/WEB_BOT_2020/Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+   curl -d url=https://24c3407dbd51.ngrok.io/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
    ```
       
    • The result will appear (Bot sign is already working / active): 
@@ -82,11 +86,11 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    {"ok":true,"result":true,"description":"Webhook was set"}
    ```
 7. Open your browser, then type a command with the following rules to run the web:<br>
-    <strong>[URL https NGROK]/WEB_BOT_2020/WebKelola/index.php</strong><br>
+    <strong>[URL Https NGROK]/WB-Register/index.php</strong><br>
     
     • Writing example:
     ```bash
-    https://24c3407dbd51.ngrok.io/WEB_BOT_2020/WebKelola/index.php
+    https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
 
 <br>
