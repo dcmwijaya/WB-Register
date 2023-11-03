@@ -49,8 +49,7 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    localhost/phpmyadmin/
    ```
 3. Create a database called "wb_register" on local.<br>
-4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.<br>
-5. Then open the XAMP file (php.ini) -> remove semicolon (;) in front of extension=intl -> save.
+4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.
 
 <br>
 
