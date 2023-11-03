@@ -62,36 +62,36 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 3. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br>
 4. Connect the ngrok account in the following way:<br>
    ```bash
-   ngrok config add-authtoken [YOUR AUTHTOKEN]
+   ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
-3. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
-<strong>WB-Register -> multiplatform -> tgbot -> private -> token.txt</strong>
-4. Type the following command into NGROK.exe and press enter:
+5. Type the following command into NGROK.exe and press enter:
    ```bash
    ngrok http 80
    ```
    
-5. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
+6. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
 <strong>WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)</strong>
-6. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
-<strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
-
-   • Writing example:
-   ```bash
-   curl -d url=https://24c3407dbd51.ngrok.io/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
-   ```
-      
-   • The result will appear (Bot sign is already working / active): 
-   ```bash
-   {"ok":true,"result":true,"description":"Webhook was set"}
-   ```
-7. Open your browser, then type a command with the following rules to run the web:<br>
+7. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
+<strong>WB-Register -> multiplatform -> tgbot -> private -> token.txt</strong>
+8. Open your browser, then type a command with the following rules to run the web:<br>
     <strong>[URL Https NGROK]/WB-Register/index.php</strong><br>
     
     • Writing example:
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
+9. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
+<strong>curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
+
+   • Writing example:
+   ```bash
+   curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+   ```
+      
+   • The result will appear (Bot sign is already working / active): 
+   ```bash
+   {"ok":true,"result":true,"description":"Webhook was set"}
+   ```
 
 <br>
 
