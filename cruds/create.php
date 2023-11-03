@@ -12,10 +12,10 @@ if(isset($_POST['insertdata'])){
 		$query = mysqli_query($conn,"INSERT INTO registrasi VALUES ('','$nama','$email','$pstudi','$telp','$divisi')");
 
 		if($query && $conn != null){
-			header("Location: $url/Bot-Website-Register/index.php");
+			header("Location: $url/WB-Register/index.php");
 		}
 		else{
-			header("Location: $url/Bot-Website-Register/index.php");
+			header("Location: $url/WB-Register/index.php");
 		}
 }
 
