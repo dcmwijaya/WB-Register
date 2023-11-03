@@ -127,8 +127,8 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 </table>
 <table>
 <tr>
-<th width="280">Delete</th>
-<th width="280">Search</th>
+<th width="420">Delete</th>
+<th width="420">Search</th>
 </tr>
 <tr>
 <td><img src="https://github.com/devancakra/WB-Register/assets/54527592/ff4bcf13-164e-47f6-abaf-dba3f30f9423" alt="delete"></td>
