@@ -67,9 +67,9 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    ngrok http 80
    ```
    
-5. Salin URL https yang ada di NGROK, lalu tempelkan URL tersebut ke dalam folder (direktori) berikut : <br>
+5. Salin URL https yang ada di NGROK, lalu tempelkan URL tersebut ke dalam folder (direktori) berikut: <br>
 <strong>Bot-Website-Register -> url_ngrok -> generate_url (catatan : url hanya berlaku sekali jalan)</strong>
-6. Buka CMD (Command Prompt) lalu ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan bot telegram:<br>
+6. Buka CMD (Command Prompt) lalu ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan bot:<br>
 <strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
 
    • Contoh pengisian :
