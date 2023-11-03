@@ -3,7 +3,7 @@
 $dbHost = 'localhost';
 $dbUser = 'root';
 $dbPass = '';
-$dbName = 'WB_Register';
+$dbName = 'wb_register';
 $conn = mysqli_connect($dbHost, $dbUser, $dbPass, $dbName);
 
 ?>
