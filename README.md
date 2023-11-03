@@ -45,8 +45,8 @@ https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
 ```bash
 localhost/phpmyadmin/
 ```
-3.Create a database called "WB_Register" on local.<br>
-4.Open the "WB_Register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.<br>
+3.Create a database called "wb_register" on local.<br>
+4.Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.<br>
 5.Then open the XAMP file (php.ini) -> remove semicolon (;) in front of extension=intl -> save.
 
 <br>
