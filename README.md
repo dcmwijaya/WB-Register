@@ -23,60 +23,69 @@ Creating multiplatform applications: Bot-Website Register for new member registr
 | --- | --- |
 | Features | Create, Read, Update, Delete, Search, Count Data |
 | Code | PHP, HTML, CSS, JS, SQL |
-| Framework | Bootstrap 4 |
+| Framework | Bootstrap 4, Botman |
 | Tools | XAMPP (PHP Version 7.4) & Ngrok |
 
 <br>
 
 ## Download & Install
-1.XAMPP with PHP version 7.4 :
-```bash
-https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
-```
-2.Ngrok :
-```bash
-https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
-```
+1. XAMPP with PHP version 7.4 :<br><br>
+   ```bash
+   https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
+   ```
+<br>
+
+2. Ngrok :<br><br>
+   ```bash
+   https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
+   ```
 
 <br>
 
 ## Database
-1.Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.<br>
-2.Access the browser first in order to open the database admin panel, please copy the following link:
-```bash
-localhost/phpmyadmin/
-```
-3.Create a database called "wb_register" on local.<br>
-4.Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.<br>
-5.Then open the XAMP file (php.ini) -> remove semicolon (;) in front of extension=intl -> save.
+1. Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.<br>
+2. Access the browser first in order to open the database admin panel, please copy the following link:<br><br>
+   ```bash
+   localhost/phpmyadmin/
+   ```
+3. Create a database called "wb_register" on local.<br>
+4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the Bot-Website-Register/assets/sql directory.<br>
+5. Then open the XAMP file (php.ini) -> remove semicolon (;) in front of extension=intl -> save.
 
 <br>
 
 ## Running
 1. Download this repository.<br>
-2. Copy semua file yang ada didalam folder yang telah di download tadi lalu pastekan ke -> C:\xampp\htdocs
-3. Copy API Bot Telegram Anda lalu pastekan kedalam folder (direktori) : Bot-Website-Register -> multiplatform -> bot -> private -> token.txt
-5. Ketikan pada NGROK.exe -> ngrok http 80 -> lalu tekan enter
-6. Ambil url https yang ada pada NGROK, misal : https://24c3407dbd51.ngrok.io
-7. Copy URL https NGROK tersebut lalu pastekan kedalam folder (direktori) : WEB_BOT_2020 -> WebKelola -> localhost -> url_ngrok.txt (catatan : url berlaku sekali jalan)
-8. Lalu buka CMD (Command Prompt)
-9. Ketikan pada CMD -> curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook -> lalu tekan enter
+2. Move the "Bot-Website-Register" directory into the htdocs directory, whose details you can find out as follows:
+   ```bash
+   C:\xampp\htdocs
+   ```
 
-   *Contoh pengisian :
+3. Salin API Bot Telegram Anda yang ada di @BotFather, lalu pastekan ke dalam folder (direktori) berikut: <br>
+<strong>Bot-Website-Register -> multiplatform -> bot -> private -> token.txt</strong>
+4. Ketikan perintah berikut pada NGROK.exe lalu tekan enter:
+   ```bash
+   ngrok http 80
+   ```
+   
+5. Salin URL https yang ada di NGROK, lalu tempelkan URL tersebut ke dalam folder (direktori) berikut : <br>
+<strong>Bot-Website-Register -> url_ngrok -> generate_url (catatan : url hanya berlaku sekali jalan)</strong>
+6. Buka CMD (Command Prompt) lalu ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan bot telegram:<br>
+<strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
+
+   • Contoh pengisian :
    ```bash
    curl -d url=https://24c3407dbd51.ngrok.io/WEB_BOT_2020/Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
    ```
       
-   *Hasilnya akan muncul (Tanda Bot sudah berfungsi/aktif) : 
+   • Hasilnya akan muncul (Tanda Bot sudah berfungsi/aktif) : 
    ```bash
    {"ok":true,"result":true,"description":"Webhook was set"}
    ```
-10. Langkah selanjutnya yaitu WEB Kelola, yaitu cukup anda Copy paste kan URL Ngrok tadi ke web browser(Chrome/Mozilla/Etc) dengan ketentuan sebagai berikut :
-    ```bash
-    [URL https NGROK]/WEB_BOT_2020/WebKelola/index.php
-    ```
+7. Buka peramban anda, kemudian ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan website:<br>
+    <strong>[URL https NGROK]/WEB_BOT_2020/WebKelola/index.php</strong><br>
     
-    *Contoh penulisan :
+    • Contoh penulisan :
     ```bash
     https://24c3407dbd51.ngrok.io/WEB_BOT_2020/WebKelola/index.php
     ```
