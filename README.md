@@ -54,7 +54,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <br>
 
 ## Running
-1. Download this repository.<br>
+1. Download this repository and extract it.<br>
 2. Move the "WB-Register" directory into the htdocs directory, whose details you can find out as follows:
    ```bash
    C:\xampp\htdocs
