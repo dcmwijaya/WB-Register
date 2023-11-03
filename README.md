@@ -13,7 +13,8 @@
 ![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
 
 # Bot-Website-Register
-Web Programming Final Project - Creating multiplatform applications: Bot-Website Register for new member registration of UPN Veteran Jatim Robotics community.
+<strong>Web Programming Final Project</strong><br>
+Creating multiplatform applications: Bot-Website Register for new member registration of UPN Veteran Jatim Robotics community.
 
 <br>
 
