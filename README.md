@@ -60,31 +60,31 @@ Creating multiplatform applications: Bot-Website Register for new member registr
    C:\xampp\htdocs
    ```
 
-3. Salin API Bot Telegram Anda yang ada di @BotFather, lalu pastekan ke dalam folder (direktori) berikut: <br>
+3. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
 <strong>Bot-Website-Register -> multiplatform -> bot -> private -> token.txt</strong>
-4. Ketikan perintah berikut pada NGROK.exe lalu tekan enter:
+4. Type the following command into NGROK.exe and press enter:
    ```bash
    ngrok http 80
    ```
    
-5. Salin URL https yang ada di NGROK, lalu tempelkan URL tersebut ke dalam folder (direktori) berikut: <br>
-<strong>Bot-Website-Register -> url_ngrok -> generate_url (catatan : url hanya berlaku sekali jalan)</strong>
-6. Buka CMD (Command Prompt) lalu ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan bot:<br>
+5. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
+<strong>Bot-Website-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)</strong>
+6. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
 <strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[API-BOT-Telegram-Anda]/setWebhook</strong><br>
 
-   • Contoh pengisian :
+   • Writing example:
    ```bash
    curl -d url=https://24c3407dbd51.ngrok.io/WEB_BOT_2020/Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
    ```
       
-   • Hasilnya akan muncul (Tanda Bot sudah berfungsi/aktif) : 
+   • The result will appear (Bot sign is already working / active): 
    ```bash
    {"ok":true,"result":true,"description":"Webhook was set"}
    ```
-7. Buka peramban anda, kemudian ketikan perintah dengan aturan sebagai berikut ini untuk menjalankan website:<br>
+7. Open your browser, then type a command with the following rules to run the web:<br>
     <strong>[URL https NGROK]/WEB_BOT_2020/WebKelola/index.php</strong><br>
     
-    • Contoh penulisan :
+    • Writing example:
     ```bash
     https://24c3407dbd51.ngrok.io/WEB_BOT_2020/WebKelola/index.php
     ```
