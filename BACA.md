@@ -47,7 +47,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:
          ```
          localhost/phpmyadmin/
-         ```
+         ```.
 3. Buat basis data bernama ``` wb_register ``` di lokal.<br>
 4. Buka basis data ``` wb_register ``` dan Impor basis data ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
 
@@ -58,7 +58,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
          ```
          C:\xampp\htdocs
-         ```
+         ```.
    
 3. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong><br>
 4. Hubungkan akun ngrok dengan cara berikut:<br>
@@ -96,7 +96,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): 
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
-         ```
+         ```.
          
 11. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
     ```bash
