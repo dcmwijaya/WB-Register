@@ -96,7 +96,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): 
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
-         ```.
+         ```
          
 11. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
     ```bash
