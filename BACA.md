@@ -88,11 +88,11 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 8. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
 9. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
-    ``` [URL Https NGROK]/WB-Register/index.php ```
+    ``` [URL Https NGROK]/WB-Register/ ```
     
     • Contoh penulisan:
     ```bash
-    https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
+    https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/
     ```
     
 10. Klik -> ``` Visit Site ```.
