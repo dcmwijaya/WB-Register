@@ -3,6 +3,7 @@
 namespace React\Stream;
 
 use Evenement\EventEmitter;
+use React\EventLoop\Loop;
 use React\EventLoop\LoopInterface;
 use InvalidArgumentException;
 
@@ -13,6 +14,7 @@ final class ReadableResourceStream extends EventEmitter implements ReadableStrea
      */
     private $stream;
 
+    /** @var LoopInterface */
     private $loop;
 
     /**
@@ -38,7 +40,7 @@ final class ReadableResourceStream extends EventEmitter implements ReadableStrea
     private $closed = false;
     private $listening = false;
 
-    public function __construct($stream, LoopInterface $loop, $readChunkSize = null)
+    public function __construct($stream, LoopInterface $loop = null, $readChunkSize = null)
     {
         if (!\is_resource($stream) || \get_resource_type($stream) !== "stream") {
              throw new InvalidArgumentException('First parameter must be a valid stream resource');
@@ -52,7 +54,7 @@ final class ReadableResourceStream extends EventEmitter implements ReadableStrea
 
         // this class relies on non-blocking I/O in order to not interrupt the event loop
         // e.g. pipes on Windows do not support this: https://bugs.php.net/bug.php?id=47918
-        if (\stream_set_blocking($stream, 0) !== true) {
+        if (\stream_set_blocking($stream, false) !== true) {
             throw new \RuntimeException('Unable to set stream resource to non-blocking mode');
         }
 
@@ -69,7 +71,7 @@ final class ReadableResourceStream extends EventEmitter implements ReadableStrea
         }
 
         $this->stream = $stream;
-        $this->loop = $loop;
+        $this->loop = $loop ?: Loop::get();
         $this->bufferSize = ($readChunkSize === null) ? 65536 : (int)$readChunkSize;
 
         $this->resume();

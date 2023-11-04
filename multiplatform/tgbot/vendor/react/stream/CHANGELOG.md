@@ -1,12 +1,63 @@
 # Changelog
 
-## 1.1.0 (2018-01-01)
+## 1.3.0 (2023-06-16)
 
-*   Improvement: Increase performance by optimizing global function and constant look ups
+*   Feature: Full PHP 8.1 and PHP 8.2 compatibility.
+    (#160 by @SimonFrings, #165 by @clue and #169 by @WyriHaximus)
+
+*   Feature: Avoid unneeded syscall when creating non-blocking `DuplexResourceStream`.
+    (#164 by @clue)
+
+*   Minor documentation improvements.
+    (#161 by @mrsimonbennett, #162 by @SimonFrings and #166 by @nhedger)
+
+*   Improve test suite and project setup and report failed assertions.
+    (#168 and #170 by @clue and #163 by @SimonFrings)
+
+## 1.2.0 (2021-07-11)
+
+A major new feature release, see [**release announcement**](https://clue.engineering/2021/announcing-reactphp-default-loop).
+
+*   Feature: Simplify usage by supporting new [default loop](https://reactphp.org/event-loop/#loop).
+    (#159 by @clue)
+
+    ```php
+    // old (still supported)
+    $stream = new ReadableResourceStream($resource, $loop);
+    $stream = new WritabeResourceStream($resource, $loop);
+    $stream = new DuplexResourceStream($resource, $loop);
+
+    // new (using default loop)
+    $stream = new ReadableResourceStream($resource);
+    $stream = new WritabeResourceStream($resource);
+    $stream = new DuplexResourceStream($resource);
+    ```
+
+*   Improve test suite, use GitHub actions for continuous integration (CI),
+    update PHPUnit config, run tests on PHP 8 and add full core team to the license.
+    (#153, #156 and #157 by @SimonFrings and #154 by @WyriHaximus)
+
+## 1.1.1 (2020-05-04)
+
+*   Fix: Fix faulty write buffer behavior when sending large data chunks over TLS (Mac OS X only).
+    (#150 by @clue)
+
+*   Minor code style improvements to fix phpstan analysis warnings and
+    add `.gitattributes` to exclude dev files from exports.
+    (#140 by @flow-control and #144 by @reedy)
+
+*   Improve test suite to run tests on PHP 7.4 and simplify test matrix.
+    (#147 by @clue)
+
+## 1.1.0 (2019-01-01)
+
+*   Improvement: Increase performance by optimizing global function and constant look ups.
     (#137 by @WyriHaximus)
-*   Travis: Test against PHP 7.3
+
+*   Travis: Test against PHP 7.3.
     (#138 by @WyriHaximus)
-*   Fix: Ignore empty reads 
+
+*   Fix: Ignore empty reads.
     (#139 by @WyriHaximus)
 
 ## 1.0.0 (2018-07-11)

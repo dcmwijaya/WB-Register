@@ -92,6 +92,7 @@ final class BinaryDumper
                     $binary = $this->domainNameToBinary($record->data);
                     break;
                 case Message::TYPE_TXT:
+                case Message::TYPE_SPF:
                     $binary = $this->textsToBinary($record->data);
                     break;
                 case Message::TYPE_MX:
@@ -138,6 +139,15 @@ final class BinaryDumper
                         $record->data['type'],
                         $record->data['fingerprint']
                     );
+                    break;
+                case Message::TYPE_OPT:
+                    $binary = '';
+                    foreach ($record->data as $opt => $value) {
+                        if ($opt === Message::OPT_TCP_KEEPALIVE && $value !== null) {
+                            $value = \pack('n', round($value * 10));
+                        }
+                        $binary .= \pack('n*', $opt, \strlen((string) $value)) . $value;
+                    }
                     break;
                 default:
                     // RDATA is already stored as binary value for unknown record types
