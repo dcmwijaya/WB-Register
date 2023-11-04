@@ -74,9 +74,11 @@ Creating multiplatform applications: Website-Bot Register for new member registr
      tunnel-1:
        proto: http
        addr: 80
+       schemes: ["https"]
      tunnel-2:
        proto: http
        addr: 80
+       schemes: ["http", "https"]
    ```
 6. Type the following command into NGROK.exe and press enter:
    ```bash
@@ -93,12 +95,12 @@ Creating multiplatform applications: Website-Bot Register for new member registr
          ```
 9. Open your browser, then type a command with the following rules to run the web:<br>
          ```
-         [URL Https NGROK]/WB-Register/index.php
+         [URL Https NGROK]/WB-Register/
          ```
     
     • Writing example:
     ```bash
-    https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
+    https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/
     ```
 10. Click -> ``` Visit Site ```.<br>
 
