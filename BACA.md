@@ -63,13 +63,13 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 3. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong><br>
 4. Hubungkan akun ngrok dengan cara berikut:<br>
    ```bash
-   ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
+   ngrok config add-authtoken [TOKEN NGROK]
    ```
 
 5. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya:<br>
    ```bash
    version: "2"
-   authtoken: [YOUR NGROK AUTHTOKEN]
+   authtoken: [TOKEN NGROK]
    tunnels:
      tunnel-1:
        proto: http
