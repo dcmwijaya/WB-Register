@@ -29,12 +29,12 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 <br>
 
 ## Unduh & Instal
-1.XAMPP dengan PHP versi 7.4 :<br><br>
+1. XAMPP dengan PHP versi 7.4 :<br><br>
    ```bash
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
 <br>
-
+   
 2. Ngrok :<br><br>
    ```bash
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
@@ -44,10 +44,10 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 ## Basis data
 1. Buka XAMPP, lalu tekan tombol mulai di bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
-2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:<br><br>
-   ```bash
-   localhost/phpmyadmin/
-   ```
+2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:
+         ```
+         localhost/phpmyadmin/
+         ```
 3. Buat basis data bernama "wb_register" di lokal.<br>
 4. Buka basis data "wb_register" dan Impor basis data (WB_Register_db.sql) di direktori WB-Register/assets/sql.
 
@@ -56,9 +56,9 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 ## Menjalankan
 1. Unduh repositori ini lalu ekstrak.<br>
 2. Pindahkan direktori "WB-Register" ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
-   ```bash
-   C:\xampp\htdocs
-   ```
+         ```
+         C:\xampp\htdocs
+         ```
    
 3. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong><br>
 4. Hubungkan akun ngrok dengan cara berikut:<br>
@@ -92,9 +92,9 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    ```
       
    • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): 
-   ```bash
-   {"ok":true,"result":true,"description":"Webhook was set"}
-   ```
+         ```
+         {"ok":true,"result":true,"description":"Webhook was set"}
+         ```
    
 10. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
     ```bash
