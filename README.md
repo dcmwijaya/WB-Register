@@ -101,7 +101,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
     • The result will appear (Bot sign is already working / active): 
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
-         ```.
+         ```
 11. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
