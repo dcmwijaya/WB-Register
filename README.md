@@ -44,10 +44,10 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 ## Database
 1. Open XAMPP, then start the Apache & MySQL section. This aims to be able to support the website optimally.<br>
-2. Access the browser first in order to open the database admin panel, please copy the following link:<br><br>
-   ```bash
-   localhost/phpmyadmin/
-   ```
+2. Access the browser first in order to open the database admin panel, please copy the following link:
+         ```
+         localhost/phpmyadmin/
+         ```
 3. Create a database called "wb_register" on local.<br>
 4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the WB-Register/assets/sql directory.
 
@@ -56,9 +56,9 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 ## Running
 1. Download this repository and extract it.<br>
 2. Move the "WB-Register" directory into the htdocs directory, whose details you can find out as follows:
-   ```bash
-   C:\xampp\htdocs
-   ```
+         ```
+         C:\xampp\htdocs
+         ```
    
 3. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br>
 4. Connect the ngrok account in the following way:<br>
@@ -82,20 +82,20 @@ Creating multiplatform applications: Website-Bot Register for new member registr
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
-9. Click -> Visit Site.    
+9. Click -> Visit Site.<br>
+
 10. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
 <strong>curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook</strong><br>
 
-   • Writing example:
-   ```bash
-   curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
-   ```
-      
-   • The result will appear (Bot sign is already working / active): 
-   ```bash
-   {"ok":true,"result":true,"description":"Webhook was set"}
-   ```
-   
+    • Writing example:
+    ```bash
+    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+    ```
+
+    • The result will appear (Bot sign is already working / active): 
+         ```
+         {"ok":true,"result":true,"description":"Webhook was set"}
+         ```
 11. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
