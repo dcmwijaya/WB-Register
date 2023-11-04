@@ -73,10 +73,10 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    tunnels:
      web:
        proto: http
-       addr: 8080
+       addr: 80
      bot:
        proto: http
-       addr: 8181
+       addr: 80
    ```
 6. Type the following command into NGROK.exe and press enter:
    ```bash
