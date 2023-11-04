@@ -65,17 +65,29 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    ```bash
    ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
-   
-5. Ketik perintah berikut ke dalam NGROK.exe dan tekan enter:
+
+5. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya:<br>
    ```bash
-   ngrok http 80
+   version: "2"
+   authtoken: [YOUR NGROK AUTHTOKEN]
+   tunnels:
+     web:
+       proto: http
+       addr: 80
+     bot:
+       proto: http
+       addr: 80
+   ```
+6. Ketik perintah berikut ke dalam NGROK.exe dan tekan enter:
+   ```bash
+   ngrok start --all
    ```
 
-6. Salin URL https di NGROK, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
+7. Salin URL https di NGROK, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```
-7. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
+8. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
-8. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
+9. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
     ``` [URL Https NGROK]/WB-Register/index.php ```
     
     • Contoh penulisan:
@@ -83,9 +95,9 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
     
-9. Klik -> ``` Visit Site ```.
+10. Klik -> ``` Visit Site ```.
        
-10. Buka CMD (Command Prompt) dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
+11. Buka CMD (Command Prompt) dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
 ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
 
     • Contoh penulisan:
@@ -98,7 +110,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
          
-11. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
+12. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
