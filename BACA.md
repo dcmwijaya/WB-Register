@@ -48,14 +48,14 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
          ```
          localhost/phpmyadmin/
          ```
-3. Buat basis data bernama "wb_register" di lokal.<br>
-4. Buka basis data "wb_register" dan Impor basis data (WB_Register_db.sql) di direktori WB-Register/assets/sql.
+3. Buat basis data bernama ``` wb_register ``` di lokal.<br>
+4. Buka basis data ``` wb_register ``` dan Impor basis data ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
 
 <br>
 
 ## Menjalankan
 1. Unduh repositori ini lalu ekstrak.<br>
-2. Pindahkan direktori "WB-Register" ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
+2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
          ```
          C:\xampp\htdocs
          ```
@@ -72,11 +72,11 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    ```
 
 6. Salin URL https di NGROK, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
-<strong>WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali)</strong><br>
+``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```
 7. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
-<strong>WB-Register -> multiplatform -> tgbot -> private -> token.txt</strong><br>
+``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
 8. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
-    <strong>[URL Https NGROK]/WB-Register/index.php</strong><br>
+    ``` [URL Https NGROK]/WB-Register/index.php ```
     
     • Contoh penulisan:
     ```bash
@@ -84,7 +84,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     ```
     
 9. Buka CMD (Command Prompt) dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
-<strong>curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook</strong><br>
+``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
 
    • Contoh penulisan:
    ```bash
