@@ -74,9 +74,11 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
      tunnel-1:
        proto: http
        addr: 80
+       schemes: ["https"]
      tunnel-2:
        proto: http
        addr: 80
+       schemes: ["http", "https"]
    ```
 6. Ketik perintah berikut ke dalam NGROK.exe dan tekan enter:
    ```bash
