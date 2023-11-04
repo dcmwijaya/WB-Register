@@ -82,8 +82,8 @@ Creating multiplatform applications: Website-Bot Register for new member registr
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
-    
-9. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
+9. Click -> Visit Site.    
+10. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
 <strong>curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook</strong><br>
 
    • Writing example:
@@ -96,7 +96,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    {"ok":true,"result":true,"description":"Webhook was set"}
    ```
    
-10. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
+11. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
