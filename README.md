@@ -72,10 +72,10 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    authtoken: [YOUR NGROK AUTHTOKEN]
    tunnels:
      web:
-       proto: https
+       proto: http
        addr: 8080
      bot:
-       proto: https
+       proto: http
        addr: 8181
    ```
 6. Type the following command into NGROK.exe and press enter:
