@@ -48,14 +48,14 @@ Creating multiplatform applications: Website-Bot Register for new member registr
          ```
          localhost/phpmyadmin/
          ```
-3. Create a database called "wb_register" on local.<br>
-4. Open the "wb_register" database and Import the database (WB_Register_db.sql) in the WB-Register/assets/sql directory.
+3. Create a database called ``` wb_register ``` on local.<br>
+4. Open the ``` wb_register ``` database and Import the ``` WB_Register_db.sql ``` in the ``` WB-Register/assets/sql directory ```.
 
 <br>
 
 ## Running
 1. Download this repository and extract it.<br>
-2. Move the "WB-Register" directory into the htdocs directory, whose details you can find out as follows:
+2. Move the ``` WB-Register ``` directory into the htdocs directory, whose details you can find out as follows:
          ```
          C:\xampp\htdocs
          ```
@@ -72,20 +72,26 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    ```
 
 6. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
-<strong>WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)</strong><br>
+         ```
+         WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)
+         ```
 7. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
-<strong>WB-Register -> multiplatform -> tgbot -> private -> token.txt</strong><br>
-8. Open your browser, then type a command with the following rules to run the web:<br>
-    <strong>[URL Https NGROK]/WB-Register/index.php</strong><br>
+         ```
+         WB-Register -> multiplatform -> tgbot -> private -> token.txt
+         ```
+9. Open your browser, then type a command with the following rules to run the web:<br>
+         ```
+         [URL Https NGROK]/WB-Register/index.php
+         ```
     
     • Writing example:
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/index.php
     ```
-9. Click -> Visit Site.<br>
+11. Click -> ``` Visit Site ```.<br>
 
-10. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
-<strong>curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook</strong><br>
+12. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
+``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
 
     • Writing example:
     ```bash
@@ -96,7 +102,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
-11. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
+13. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
