@@ -171,6 +171,11 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 <br>
 
+## Demonstrasi Aplikasi
+Via Telegram: <a href="http://t.me/roboticsupnjt_bot">@roboticsupnjt_bot</a>
+
+<br>
+
 ## LISENSI 
 LISENSI MIT - Hak Cipta (c) 2021 - Devan Cakra Mudra Wijaya
 
