@@ -164,12 +164,15 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 </table>
 <table>
 <tr>
-<th colspan="3">Telegram Bot</th>
+<th colspan="6">Telegram Bot</th>
 </tr>
 <tr>
-<td width="280"><img src="" alt="TGbot-1"></td>
-<td width="280"><img src="" alt="TGbot-2"></td>
-<td width="280"><img src="" alt="TGbot-3"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/4ae1a9b4-9f34-4da9-86ba-9dabe35d885f" alt="TGbot-1"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/1fbf850d-fd10-4255-9129-eb090de47331" alt="TGbot-2"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/6ad7a7c9-1c19-4cc3-b1dc-d5fe1c441544" alt="TGbot-3"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/63f5c61f-09fe-491c-a6f0-2ac1731f51c9" alt="TGbot-4"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/c6f8cb60-944e-40c9-87e7-4a11d71c4654" alt="TGbot-5"></td>
+<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/fbb1420f-e323-4793-aab1-6f93b953fb0f" alt="TGbot-6"></td>
 </tr>
 </table>
 
