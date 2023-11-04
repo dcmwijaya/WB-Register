@@ -71,10 +71,10 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    version: "2"
    authtoken: [YOUR NGROK AUTHTOKEN]
    tunnels:
-     web:
+     tunnel-1:
        proto: http
        addr: 80
-     bot:
+     tunnel-2:
        proto: http
        addr: 80
    ```
