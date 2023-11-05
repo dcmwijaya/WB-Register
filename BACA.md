@@ -134,7 +134,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 2. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan ``` API Token menjadi kadaluarsa ```. Masalah ini biasanya ditandai dengan keadaan ``` bot telegram yang tidak normal ```, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda ``` hanya perlu membuat bot telegram yang baru lagi ``` (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.<br><br>
 3. Jika masalah pada poin 1 tidak teratasi, maka Anda harus :
    
-   • Menghapus 3 file yang ada di dalam direktori ``` C:\xampp\htdocs\Cryptodax-Bot ``` yaitu ``` composer.json ```, ``` composer.lock ```, dan ``` vendor ```.
+   • Menghapus 3 file yang ada di dalam direktori ``` C:\xampp\htdocs\WB-Register\multiplatform\tgbot ``` yaitu ``` composer.json ```, ``` composer.lock ```, dan ``` vendor ```.
 
    • Instal depedensi ``` Botman ``` melalui ``` GitBash ``` dengan memberikan perintah seperti berikut:
 
