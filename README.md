@@ -64,7 +64,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 ## Running
 1. Download this repository and extract it.<br>
-2. Move the ``` WB-Register ``` directory into the htdocs directory, whose details you can find out as follows:
+2. Move the ``` WB-Register ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows:
          ```
          C:\xampp\htdocs
          ```.
@@ -89,20 +89,20 @@ Creating multiplatform applications: Website-Bot Register for new member registr
        addr: 80
        schemes: ["http", "https"]
    ```
-6. Type the following command into NGROK.exe and press enter:
+6. Type the following command into ``` NGROK.exe ``` and press enter:
    ```bash
    ngrok start --all
    ```
 
-7. Copy the https URL in NGROK, and paste the URL into the following folder (directory):<br>
+7. Copy the ``` https URL ``` in ``` NGROK ```, and paste the URL into the following folder (directory):<br>
          ```
          WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)
          ```
-8. Copy your Telegram Bot API from @BotFather and paste it into the following folder (directory):<br>
+8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory):<br>
          ```
          WB-Register -> multiplatform -> tgbot -> private -> token.txt
          ```
-9. Open your browser, then type a command with the following rules to run the web:<br>
+9. Open your ``` browser ```, then type a command with the following rules to run the web:<br>
          ```
          [URL Https NGROK]/WB-Register/
          ```
@@ -113,7 +113,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
     ```
 10. Click -> ``` Visit Site ```.<br>
 
-11. Open CMD (Command Prompt) and type the command with the following rules to run the bot:<br>
+11. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>
 ``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
 
     • Writing example:
@@ -125,7 +125,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
          ```
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
-12. If you want to complete the running webhook session, then please open the browser by typing the following command:<br>
+12. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
@@ -133,9 +133,9 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <br>
 
 ## Issues that frequently arise
-1. Forgot to run apache and sql in XAMPP or there could be a problem in your Ngrok settings. You can see an example of the problem as shown below:<br><br>
+1. Forgot to run ``` apache ``` and ``` sql ``` in ``` XAMPP ``` or there could be a problem in your ``` Ngrok settings ```. You can see an example of the problem as shown below:<br><br>
 <img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
-2. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the API Token to expire. This problem is usually characterized by an abnormal state of the telegram bot, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you only need to create a new telegram bot again (automatically get a new API Token), then for the program code, please set it based on your own needs.<br><br>
+2. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.<br><br>
 3. If the problem in point 2 is not resolved, then you should :
    
    • Delete 3 files in the ``` C:\xampp\htdocs\WB-Register\multiplatform\tgbot ``` directory, namely ``` composer.json ```, ``` composer.lock ```, and ``` vendor ```.
