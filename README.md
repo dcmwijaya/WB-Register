@@ -58,7 +58,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    
 4. Create a database called ``` wb_register ``` on local.<br>
 
-5. Open the ``` wb_register ``` database and Import the ``` WB_Register_db.sql ``` in the ``` WB-Register/assets/sql directory ```.
+5. Open the ``` wb_register ``` database and Import the ``` WB_Register_db.sql ``` in the ``` WB-Register/assets/sql ``` directory.
 
 <br>
 
