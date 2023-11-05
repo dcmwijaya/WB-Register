@@ -45,6 +45,12 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    ```bash
    https://getcomposer.org/Composer-Setup.exe
    ```
+<br>
+
+4. Git :<br><br>
+   ```bash
+   https://git-scm.com/download/win
+   ```
     
 <br>
 
