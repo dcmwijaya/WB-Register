@@ -45,6 +45,12 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    ```bash
    https://getcomposer.org/Composer-Setup.exe
    ```
+<br>
+
+4. Git :<br><br>
+   ```bash
+   https://git-scm.com/download/win
+   ```
     
 <br>
 
