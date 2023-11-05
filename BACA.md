@@ -98,7 +98,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 ``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```
 8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
-9. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
+9. Buka ``` browser ``` Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
     ``` [URL Https NGROK]/WB-Register/ ```
     
     • Contoh penulisan:
@@ -108,7 +108,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     
 10. Klik -> ``` Visit Site ```.
        
-11. Buka CMD (Command Prompt) dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
+11. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
 ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
 
     • Contoh penulisan:
