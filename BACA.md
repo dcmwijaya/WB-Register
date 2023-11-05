@@ -50,12 +50,15 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 ## Basis data
 1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
+
 2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:
          ```
          localhost/phpmyadmin/
          ```.
-3. Buat basis data bernama ``` wb_register ``` di lokal.<br>
-4. Buka basis data ``` wb_register ``` dan Impor basis data ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
+   
+4. Buat basis data bernama ``` wb_register ``` di lokal.<br>
+
+5. Buka basis data ``` wb_register ``` dan Impor basis data ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
 
 <br>
 
