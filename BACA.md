@@ -121,7 +121,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
          
-12. Jika Anda ingin menyelesaikan sesi webhook yang sedang berjalan, maka buka browser dengan mengetikkan perintah berikut:<br>
+12. Jika Anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut:<br>
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
