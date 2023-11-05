@@ -58,7 +58,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    
 4. Buat basis data bernama ``` wb_register ``` di lokal.<br>
 
-5. Buka basis data ``` wb_register ``` dan Impor basis data ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
+5. Buka basis data ``` wb_register ``` dan Impor ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
 
 <br>
 
