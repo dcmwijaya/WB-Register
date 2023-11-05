@@ -39,11 +39,17 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
    ```bash
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-   
+<br>
+
+3. Composer :<br><br>
+   ```bash
+   https://getcomposer.org/Composer-Setup.exe
+   ```
+    
 <br>
 
 ## Basis data
-1. Buka XAMPP, lalu tekan tombol mulai di bagian Apache & MySQL. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
+1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
 2. Akses peramban terlebih dahulu untuk membuka panel admin basis data, silakan salin tautan berikut:
          ```
          localhost/phpmyadmin/
@@ -55,7 +61,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 ## Menjalankan
 1. Unduh repositori ini lalu ekstrak.<br>
-2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori htdocs, yang rinciannya dapat Anda lihat sebagai berikut:
+2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut:
          ```
          C:\xampp\htdocs
          ```.
@@ -80,14 +86,14 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
        addr: 80
        schemes: ["http", "https"]
    ```
-6. Ketik perintah berikut ke dalam NGROK.exe dan tekan enter:
+6. Ketik perintah berikut ke dalam ``` NGROK.exe ``` dan tekan enter:
    ```bash
    ngrok start --all
    ```
 
-7. Salin URL https di NGROK, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
+7. Salin ``` URL https ``` di ``` NGROK ```, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```
-8. Salin API Bot Telegram Anda dari @BotFather dan tempelkan ke dalam folder (direktori) berikut:<br>
+8. Salin ``` API Bot Telegram ``` Anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut:<br>
 ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
 9. Buka browser Anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
     ``` [URL Https NGROK]/WB-Register/ ```
@@ -122,7 +128,16 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 ## Permasalahan yang sering muncul
 1. Lupa menjalankan apache dan sql yang ada pada XAMPP atau bisa jadi ada permasalahan di pengaturan Ngrok Anda. Contoh permasalahannya dapat anda lihat seperti gambar berikut ini:<br><br>
 <img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
-2. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan API Token menjadi kadaluarsa. Masalah ini biasanya ditandai dengan keadaan bot telegram yang tidak normal, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda hanya perlu membuat bot telegram yang baru lagi (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.
+2. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan API Token menjadi kadaluarsa. Masalah ini biasanya ditandai dengan keadaan bot telegram yang tidak normal, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda hanya perlu membuat bot telegram yang baru lagi (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.<br><br>
+3. Jika masalah pada poin 1 tidak teratasi, maka Anda harus :
+   
+   • Menghapus 3 file yang ada di dalam direktori ``` C:\xampp\htdocs\Cryptodax-Bot ``` yaitu ``` composer.json ```, ``` composer.lock ```, dan ``` vendor ```.
+
+   • Instal depedensi ``` Botman ``` melalui ``` GitBash ``` dengan memberikan perintah seperti berikut:
+
+   ```bash
+   composer require "botman/driver-telegram"
+   ```
 
 <br>
 
