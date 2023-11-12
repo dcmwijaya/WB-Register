@@ -68,7 +68,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 <br>
 
-## Menjalankan
+## Memulai
 1. Unduh repositori ini lalu ekstrak.<br>
 2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat Anda lihat sebagai berikut:
          ```
@@ -200,6 +200,11 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 ## Demonstrasi Aplikasi
 Via Telegram: <a href="http://t.me/roboticsupnjt_bot">@roboticsupnjt_bot</a>
+
+<br>
+
+## Penafian
+Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
 <br>
 
