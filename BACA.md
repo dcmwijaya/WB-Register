@@ -13,7 +13,7 @@
 ![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
 
 # WB-Register
-<strong>Proyek Akhir Pemrograman Web</strong><br>
+<strong>Tugas Akhir Pemrograman Web</strong><br>
 Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota baru komunitas Robotika UPN Veteran Jatim.
 
 <br>
