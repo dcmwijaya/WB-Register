@@ -18,7 +18,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 <br>
 
-## Features / Framework / Tools
+## Project Requirements
 | Part | Description |
 | --- | --- |
 | Features | Create, Read, Update, Delete, Search, Count Data, Validation, Refresh Page, Error Handling |
