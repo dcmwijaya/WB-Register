@@ -16,7 +16,7 @@
 <strong>Web Programming Final Project</strong><br>
 Creating multiplatform applications: Website-Bot Register for new member registration of UPN Veteran Jatim Robotics community.
 
-<br>
+<br><br>
 
 ## Project Requirements
 | Part | Description |
@@ -26,7 +26,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 | Framework | Bootstrap 4, Botman |
 | Tools | XAMPP (PHP Version 7.4) Composer, Git, Ngrok |
 
-<br>
+<br><br>
 
 ## Download & Install
 1. XAMPP with PHP version 7.4 :<br><br>
@@ -52,21 +52,18 @@ Creating multiplatform applications: Website-Bot Register for new member registr
    https://git-scm.com/download/win
    ```
     
-<br>
+<br><br>
 
 ## Database
-1. Open ``` XAMPP ```, then start the ``` Apache ``` & ``` MySQL ``` section. This aims to be able to support the website optimally.<br>
+1. Open ``` XAMPP ```, then start the ``` Apache ``` & ``` MySQL ``` section. This aims to be able to support the website optimally.<br><br>
 
-2. Access the browser first in order to open the database admin panel, please copy the following link:
-         ```
-         localhost/phpmyadmin/
-         ```.
+2. Access the browser first in order to open the database admin panel, please copy the following link: ``` localhost/phpmyadmin/ ```.<br><br>
    
-4. Create a database called ``` wb_register ``` on local.<br>
+3. Create a database called ``` wb_register ``` on local.<br><br>
 
-5. Open the ``` wb_register ``` database and Import the ``` WB_Register_db.sql ``` in the ``` WB-Register/assets/sql ``` directory.
+4. Open the ``` wb_register ``` database and Import the ``` WB_Register_db.sql ``` in the ``` WB-Register/assets/sql ``` directory.
 
-<br>
+<br><br>
 
 ## Get Started
 1. Download this repository and extract it.<br><br>
@@ -157,7 +154,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
     </td></tr></table>
 
-<br>
+<br><br>
 
 ## Issues that frequently arise
 1. Forgot to run ``` apache ``` and ``` sql ``` in ``` XAMPP ``` or there could be a problem in your ``` Ngrok settings ```. You can see an example of the problem as shown below:<br><br>
@@ -179,7 +176,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
    </td></tr></table>
 
-<br>
+<br><br>
 
 ## Website Programming Group
 | NUMBER | FULL NAME | NPM |
@@ -188,7 +185,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 | 2 | Tasya Ardhian Nisaa' | 18081010049 |
 | 3 | Susy Rahmawati | 18081010048 |
 
-<br>
+<br><br>
 
 ## Highlight
 <table>
@@ -227,22 +224,22 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstration of Application
 Via Telegram: <a href="http://t.me/roboticsupnjt_bot">@roboticsupnjt_bot</a>
 
-<br>
+<br><br>
 
 ## Appreciation
 If you find this work useful, please support it as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
 
-<br>
+<br><br>
 
 ## Disclaimer
 This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
 
-<br>
+<br><br>
 
 ## LICENSE
 MIT License - Copyright © 2021 - Devan Cakra Mudra Wijaya
