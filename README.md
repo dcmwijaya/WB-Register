@@ -116,7 +116,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory): ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```.<br><br>
 
-9. Open your ``` browser ```, then type a command with the following rules to run the web: ``` [URL Https NGROK]/WB-Register/ ```
+9. Open your ``` browser ```, then type a command with the following rules to run the web: ``` [URL Https NGROK]/WB-Register/ ```.
     
     • Writing example:
 
