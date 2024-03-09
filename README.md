@@ -145,9 +145,9 @@ Creating multiplatform applications: Website-Bot Register for new member registr
     
     </td></tr></table><br>
     
-11. Click -> ``` Visit Site ```.<br><br>
+10. Click -> ``` Visit Site ```.<br><br>
 
-12. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
+11. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
 
     • Writing example:
 
@@ -161,7 +161,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
     • The result will appear (Bot sign is already working / active):  ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
     
-13. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
+12. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
 
     <table><tr><td width="810">
 
