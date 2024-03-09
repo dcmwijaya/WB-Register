@@ -147,7 +147,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
     
 10. Klik -> ``` Visit Site ```.<br><br>
        
-11. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot: ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
+11. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot: ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```.<br><br>
 
     • Contoh penulisan:
 
