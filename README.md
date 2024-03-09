@@ -69,19 +69,21 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <br>
 
 ## Get Started
-1. Download this repository and extract it.<br>
-2. Move the ``` WB-Register ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows:
-         ```
-         C:\xampp\htdocs
-         ```.
+1. Download this repository and extract it.<br><br>
+
+2. Move the ``` WB-Register ``` directory into the ``` htdocs ``` directory, whose details you can find out as follows: ``` C:\xampp\htdocs ```.<br><br>
    
-3. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong><br>
-4. Connect the ngrok account in the following way:<br>
+3. Create an Ngrok account first on the following page: <strong>https://dashboard.ngrok.com/login</strong>.<br><br>
+
+4. Connect the ngrok account in the following way:
+
    ```bash
    ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
+   <br>
 
-5. Open the ``` ngrok.yml ``` file in the ``` C:\Users\[User Name]\AppData\Local\ngrok ``` directory, then set the tunnels to be used for multiple ports in one go by writing this command in it:<br>
+5. Open the ``` ngrok.yml ``` file in the ``` C:\Users\[User Name]\AppData\Local\ngrok ``` directory, then set the tunnels to be used for multiple ports in one go by writing this command in it:
+
    ```bash
    version: "2"
    authtoken: [YOUR NGROK AUTHTOKEN]
@@ -95,43 +97,47 @@ Creating multiplatform applications: Website-Bot Register for new member registr
        addr: 80
        schemes: ["http", "https"]
    ```
+   <br>
+   
 6. Type the following command into ``` NGROK.exe ``` and press enter:
    ```bash
    ngrok start --all
    ```
+   <br>
 
-7. Copy the ``` https URL ``` in ``` NGROK ```, and paste the URL into the following folder (directory):<br>
-         ```
-         WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way)
-         ```
-8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory):<br>
-         ```
-         WB-Register -> multiplatform -> tgbot -> private -> token.txt
-         ```
-9. Open your ``` browser ```, then type a command with the following rules to run the web:<br>
-         ```
-         [URL Https NGROK]/WB-Register/
-         ```
+7. Copy the ``` https URL ``` in ``` NGROK ```, and paste the URL into the following folder (directory): ``` WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way) ```.<br><br>
+
+8. Copy your ``` Telegram Bot API ``` from ``` @BotFather ``` and paste it into the following folder (directory): ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```.<br><br>
+
+9. Open your ``` browser ```, then type a command with the following rules to run the web: ``` [URL Https NGROK]/WB-Register/ ```
     
     • Writing example:
+
+    <table><tr><td width="810">
+   
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/
     ```
-10. Click -> ``` Visit Site ```.<br>
+    
+    </td></tr></table><br>
+    
+11. Click -> ``` Visit Site ```.<br>
 
-11. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>
-``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```
+12. Open ``` CMD (Command Prompt) ``` and type the command with the following rules to run the bot:<br>``` curl -d url=[URL Https NGROK]/[Folders If Any]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
 
     • Writing example:
-    ```bash
-    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
-    ```
 
-    • The result will appear (Bot sign is already working / active): 
-         ```
-         {"ok":true,"result":true,"description":"Webhook was set"}
-         ```
-12. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
+    <table><tr><td width="810">
+      
+    ```bash
+    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/Cryptodax-Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+    ```
+    
+    </td></tr></table><br>
+
+    • The result will appear (Bot sign is already working / active):  ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
+    
+13. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
 
     <table><tr><td width="810">
 
