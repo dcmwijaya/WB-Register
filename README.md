@@ -77,12 +77,17 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 4. Connect the ngrok account in the following way:
 
+   <table><tr><td width="810">
+
    ```bash
    ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
-   <br>
+
+   </td></tr></table><br>
 
 5. Open the ``` ngrok.yml ``` file in the ``` C:\Users\[User Name]\AppData\Local\ngrok ``` directory, then set the tunnels to be used for multiple ports in one go by writing this command in it:
+
+   <table><tr><td width="810">
 
    ```bash
    version: "2"
@@ -97,13 +102,18 @@ Creating multiplatform applications: Website-Bot Register for new member registr
        addr: 80
        schemes: ["http", "https"]
    ```
-   <br>
+
+   </td></tr></table><br>
    
 6. Type the following command into ``` NGROK.exe ``` and press enter:
+
+   <table><tr><td width="810">
+
    ```bash
    ngrok start --all
    ```
-   <br>
+
+   </td></tr></table><br>
 
 7. Copy the ``` https URL ``` in ``` NGROK ```, and paste the URL into the following folder (directory): ``` WB-Register -> url_ngrok -> generate_url (Note: url is only valid for one way) ```.<br><br>
 
