@@ -132,25 +132,36 @@ Creating multiplatform applications: Website-Bot Register for new member registr
          {"ok":true,"result":true,"description":"Webhook was set"}
          ```
 12. If you want to complete the running ``` webhook session ```, then please open the ``` browser ``` by typing the following command:<br>
+
+    <table><tr><td width="810">
+
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
 
+    </td></tr></table>
+
 <br>
 
 ## Issues that frequently arise
-1. Forgot to run ``` apache ``` and ``` sql ``` in ``` XAMPP ``` or there could be a problem in your ``` Ngrok settings ```. You can see an example of the problem as shown below:<br><br>
-<img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
-2. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.<br><br>
+1. Forgot to run ``` apache ``` and ``` sql ``` in ``` XAMPP ``` or there could be a problem in your ``` Ngrok settings ```. You can see an example of the problem as shown below:<br>
+<img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br>
+
+2. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.<br>
+
 3. If the problem in point 2 is not resolved, then you should :
    
    • Delete 3 files in the ``` C:\xampp\htdocs\WB-Register\multiplatform\tgbot ``` directory, namely ``` composer.json ```, ``` composer.lock ```, and ``` vendor ```.
 
    • Install the ``` Botman ``` depedency via ``` GitBash ``` by giving the following command:
 
+   <table><tr><td width="810">
+
    ```bash
    composer require "botman/driver-telegram"
    ```
+
+   </td></tr></table>
 
 <br>
 
