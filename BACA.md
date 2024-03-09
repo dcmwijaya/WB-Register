@@ -16,7 +16,7 @@
 <strong>Tugas Akhir Pemrograman Web</strong><br>
 Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota baru komunitas Robotika UPN Veteran Jatim.
 
-<br>
+<br><br>
 
 ## Kebutuhan Proyek
 | Bagian | Deskripsi |
@@ -26,33 +26,50 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 | Kerangka Kerja | Bootstrap 4, Botman |
 | Peralatan | XAMPP (PHP Versi 7.4), Composer, Git, Ngrok |
 
-<br>
+<br><br>
 
 ## Unduh & Instal
-1. XAMPP dengan PHP versi 7.4 :<br><br>
-   ```bash
+1. XAMPP with PHP version 7.4
+
+   <table><tr><td width="810">
+      
+   ```
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
-<br>
-   
-2. Ngrok :<br><br>
-   ```bash
+
+   </td></tr></table><br>
+
+2. Ngrok
+
+   <table><tr><td width="810">
+      
+   ```
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-<br>
 
-3. Composer :<br><br>
-   ```bash
+   </td></tr></table><br>
+
+3. Composer
+
+   <table><tr><td width="810">
+      
+   ```
    https://getcomposer.org/Composer-Setup.exe
    ```
-<br>
 
-4. Git :<br><br>
-   ```bash
+   </td></tr></table><br>
+
+4. Git
+
+   <table><tr><td width="810">
+      
+   ```
    https://git-scm.com/download/win
    ```
+
+   </td></tr></table>
     
-<br>
+<br><br>
 
 ## Basis data
 1. Buka ``` XAMPP ```, lalu tekan tombol mulai di bagian ``` Apache ``` & ``` MySQL ```. Hal ini bertujuan untuk dapat mendukung website secara optimal.<br>
@@ -66,25 +83,32 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 5. Buka basis data ``` wb_register ``` dan Impor ``` WB_Register_db.sql ``` di direktori ``` WB-Register/assets/sql ```.
 
-<br>
+<br><br>
 
 ## Memulai
-1. Unduh repositori ini lalu ekstrak.<br>
-2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut:
-         ```
-         C:\xampp\htdocs
-         ```.
+1. Unduh repositori ini lalu ekstrak.<br><br>
+
+2. Pindahkan direktori ``` WB-Register ``` ke dalam direktori ``` htdocs ```, yang rinciannya dapat anda lihat sebagai berikut: ``` C:\xampp\htdocs ```.<br><br>
    
-3. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong><br>
-4. Hubungkan akun ngrok dengan cara berikut:<br>
+3. Buat akun Ngrok terlebih dahulu di halaman berikut: <strong>https://dashboard.ngrok.com/login</strong>.<br><br>
+
+4. Hubungkan akun ngrok dengan cara berikut:
+
+   <table><tr><td width="810">
+
    ```bash
-   ngrok config add-authtoken [TOKEN NGROK]
+   ngrok config add-authtoken [YOUR NGROK AUTHTOKEN]
    ```
 
-5. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya:<br>
+   </td></tr></table><br>
+
+5. Buka berkas ``` ngrok.yml ``` di dalam direktori ``` C:\Users\[User Name]\AppData\Local\ngrok ``` , kemudian atur tunnel agar dapat digunakan untuk banyak port sekaligus dengan menuliskan perintah berikut di dalamnya:
+
+   <table><tr><td width="810">
+
    ```bash
    version: "2"
-   authtoken: [TOKEN NGROK]
+   authtoken: [YOUR NGROK AUTHTOKEN]
    tunnels:
      tunnel-1:
        proto: http
@@ -95,60 +119,84 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
        addr: 80
        schemes: ["http", "https"]
    ```
+
+   </td></tr></table><br>
+   
 6. Ketik perintah berikut ke dalam ``` NGROK.exe ``` dan tekan enter:
+
+   <table><tr><td width="810">
+
    ```bash
    ngrok start --all
    ```
 
-7. Salin ``` URL https ``` di ``` NGROK ```, dan tempelkan URL tersebut ke dalam folder (direktori) berikut:<br>
-``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```
-8. Salin ``` API Bot Telegram ``` anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut:<br>
-``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```
-9. Buka ``` browser ``` anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web:<br>
-    ``` [URL Https NGROK]/WB-Register/ ```
+   </td></tr></table><br>
+
+7. Salin ``` URL https ``` di ``` NGROK ```, dan tempelkan URL tersebut ke dalam folder (direktori) berikut: ``` WB-Register -> url_ngrok -> generate_url (Catatan: url hanya berlaku untuk dijalankan sesekali) ```.<br><br>
+
+8. Salin ``` API Bot Telegram ``` anda dari ``` @BotFather ``` dan tempelkan ke dalam folder (direktori) berikut: ``` WB-Register -> multiplatform -> tgbot -> private -> token.txt ```.<br><br>
+
+9. Buka ``` browser ``` anda, lalu ketikkan perintah dengan aturan berikut untuk menjalankan web: ``` [URL Https NGROK]/WB-Register/ ```.
     
     • Contoh penulisan:
+
+    <table><tr><td width="810">
+   
     ```bash
     https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/
     ```
     
-10. Klik -> ``` Visit Site ```.
+    </td></tr></table><br>
+    
+10. Klik -> ``` Visit Site ```.<br><br>
        
-11. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot:<br>
-``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br>
+11. Buka ``` CMD (Command Prompt) ``` dan ketikkan perintah dengan aturan berikut untuk menjalankan bot: ``` curl -d url=[URL Https NGROK]/[Folder Jika Ada]/bot.php -X POST https://api.telegram.org/bot[TOKEN]/setWebhook ```<br><br>
 
     • Contoh penulisan:
-    ```bash
-    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/WB-Register/multiplatform/tgbot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook
-    ```
 
-    • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): 
-         ```
-         {"ok":true,"result":true,"description":"Webhook was set"}
-         ```
+    <table><tr><td width="810">
+      
+    ```bash
+    curl -d url=https://e6e5-2001-448a-5021-617-ecb0-7d4d-1d9e-27f2.ngrok-free.app/Cryptodax-Bot/bot.php -X POST https://api.telegram.org/bot1496456979:AAE7MCBAeRznBN3G-E4J65GgVYzHo0oZmog/setWebhook 
+    ```
+    
+    </td></tr></table><br>
+
+    • Hasilnya akan muncul (tanda Bot sudah bekerja / aktif): ``` {"ok":true,"result":true,"description":"Webhook was set"} ```.<br><br>
          
 12. Jika anda ingin menyelesaikan ``` sesi webhook ``` yang sedang berjalan, maka buka ``` browser ``` dengan mengetikkan perintah berikut:<br>
+
+    <table><tr><td width="810">
+
     ```bash
     https://api.telegram.org/bot[TOKEN]/setWebhook
     ```
-    
-<br>
+
+    </td></tr></table>
+
+<br><br>
 
 ## Permasalahan yang sering muncul
 1. Lupa menjalankan ``` apache ``` dan ``` sql ``` yang ada pada ``` XAMPP ``` atau bisa jadi ada permasalahan di ``` pengaturan Ngrok ``` anda. Contoh permasalahannya dapat anda lihat seperti gambar berikut ini:<br><br>
 <img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
+
 2. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan ``` API Token menjadi kadaluarsa ```. Masalah ini biasanya ditandai dengan keadaan ``` bot telegram yang tidak normal ```, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda ``` hanya perlu membuat bot telegram yang baru lagi ``` (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.<br><br>
+
 3. Jika masalah pada poin 1 tidak teratasi, maka anda harus :
    
    • Menghapus 3 file yang ada di dalam direktori ``` C:\xampp\htdocs\WB-Register\multiplatform\tgbot ``` yaitu ``` composer.json ```, ``` composer.lock ```, dan ``` vendor ```.
 
    • Instal depedensi ``` Botman ``` melalui ``` GitBash ``` dengan memberikan perintah seperti berikut:
 
+   <table><tr><td width="810">
+
    ```bash
    composer require "botman/driver-telegram"
    ```
 
-<br>
+   </td></tr></table>
+
+<br><br>
 
 ## Kelompok Pemrograman Website
 | NOMOR | NAMA LENGKAP | NPM |
@@ -157,7 +205,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 | 2 | Tasya Ardhian Nisaa' | 18081010049 |
 | 3 | Susy Rahmawati | 18081010048 |
 
-<br>
+<br><br>
 
 ## Sorotan
 <table>
@@ -196,17 +244,22 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 </tr>
 </table>
 
-<br>
+<br><br>
 
 ## Demonstrasi Aplikasi
 Via Telegram: <a href="http://t.me/roboticsupnjt_bot">@roboticsupnjt_bot</a>
 
-<br>
+<br><br>
+
+## Apresiasi
+Jika anda merasa karya ini bermanfaat, dukunglah karya ini sebagai bentuk apresiasi kepada penulis dengan cara mengeklik tombol ``` ⭐Bintang ```.
+
+<br><br>
 
 ## Penafian
 Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
 
-<br>
+<br><br>
 
 ## LISENSI 
 LISENSI MIT - Hak Cipta © 2021 - Devan Cakra Mudra Wijaya
