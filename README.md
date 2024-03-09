@@ -29,28 +29,45 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <br><br>
 
 ## Download & Install
-1. XAMPP with PHP version 7.4 :<br><br>
+1. XAMPP with PHP version 7.4
+
+   <table><tr><td width="810">
+      
    ```
    https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/7.4.30/xampp-windows-x64-7.4.30-1-VC15-installer.exe/download
    ```
-<br>
 
-2. Ngrok :<br><br>
+   </td></tr></table><br>
+
+2. Ngrok
+
+   <table><tr><td width="810">
+      
    ```
    https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-windows-amd64.zip
    ```
-<br>
 
-3. Composer :<br><br>
+   </td></tr></table><br>
+
+3. Composer
+
+   <table><tr><td width="810">
+      
    ```
    https://getcomposer.org/Composer-Setup.exe
    ```
-<br>
 
-4. Git :<br><br>
+   </td></tr></table><br>
+
+4. Git
+
+   <table><tr><td width="810">
+      
    ```
    https://git-scm.com/download/win
    ```
+
+   </td></tr></table>
     
 <br><br>
 
