@@ -249,7 +249,7 @@ Via Telegram: <a href="http://t.me/roboticsupnjt_bot">@roboticsupnjt_bot</a>
 <br><br>
 
 ## Appreciation
-If you find this work useful, please support it as a token of appreciation to the author by clicking the ``` ⭐Star ``` button.
+If this work is useful to you, then support this work as a form of appreciation to the author by clicking the ``` ⭐Star ``` button at the top of the repository.
 
 <br><br>
 
