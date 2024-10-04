@@ -1,16 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://github.com/devancakra/WB-Register)
-[![Doi](https://img.shields.io/badge/Doi-http://dx.doi.org/10.30646/sinus.v19i2.531-blue.svg?logo=google-scholar&color=98FB98)](https://p3m.sinus.ac.id/jurnal/index.php/e-jurnal_SINUS/article/view/531)
-![GitHub Star](https://img.shields.io/github/stars/devancakra/WB-Register.svg?color=FF69B4)
-![GitHub Contributor](https://img.shields.io/github/contributors/devancakra/WB-Register.svg?color=FF8C00)
-![GitHub Forks](https://img.shields.io/github/forks/devancakra/WB-Register.svg?color=00CED1)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/WB-Register)
-![HTML](https://img.shields.io/badge/HTML%20-light.svg?&style=flat&logo=html5&logoColor=%23F7DF1E&color=FF6347)
-![CSS](https://img.shields.io/badge/CSS%20-light.svg?&style=flat&logo=css3&logoColor=%23F7DF1E&color=1E90FF)
-![JS](https://img.shields.io/badge/Javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E&color=008080)
-![MySQL](https://img.shields.io/badge/-MySQL-darkblue.svg?style=flat&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap4-purple.svg?&logo=bootstrap&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/WB-Register?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # WB-Register
 <strong>Web Programming Final Project</strong><br>
@@ -175,7 +167,7 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 
 ## Issues that frequently arise
 1. Forgot to run ``` apache ``` and ``` sql ``` in ``` XAMPP ``` or there could be a problem in your ``` Ngrok settings ```. You can see an example of the problem as shown below:<br><br>
-<img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
+<img width="960" alt="image" src="assets/documentation/Issues.jpg" alt="issues"><br><br>
 
 2. The problem that usually occurs with Botman-based telegram bots is when the user has left the bot for a long period of time, this can cause the ``` API Token to expire ```. This problem is usually characterized by an ``` abnormal state of the telegram bot ```, for example when the user gives the command ``` /start ``` or other commands, this bot still does not respond. The solution to this problem is that you ``` only need to create a new telegram bot again ``` (automatically get a new API Token), then for the program code, please set it based on your own needs.<br><br>
 
@@ -212,9 +204,9 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <th width="280">Update</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/92ac8c74-da70-4663-bf5d-21018bbde181" alt="create"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/b0f31465-6352-4297-b56d-c69524e509d0" alt="read"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/4b7309be-7381-437d-bb88-69fd70a779e3" alt="update"></td>
+<td><img src="assets/documentation/Create.jpg" alt="create"></td>
+<td><img src="assets/documentation/Read.jpg" alt="read"></td>
+<td><img src="assets/documentation/Update.jpg" alt="update"></td>
 </tr>
 </table>
 <table>
@@ -223,8 +215,8 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <th width="420">Search</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/ff4bcf13-164e-47f6-abaf-dba3f30f9423" alt="delete"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/68a5ae62-1861-4609-82ac-738d2ff62ea4" alt="search"></td>
+<td><img src="assets/documentation/Delete.jpg" alt="delete"></td>
+<td><img src="assets/documentation/Search.jpg" alt="search"></td>
 </tr>
 </table>
 <table>
@@ -232,12 +224,12 @@ Creating multiplatform applications: Website-Bot Register for new member registr
 <th colspan="6">Telegram Bot</th>
 </tr>
 <tr>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/4ae1a9b4-9f34-4da9-86ba-9dabe35d885f" alt="TGbot-1"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/1fbf850d-fd10-4255-9129-eb090de47331" alt="TGbot-2"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/6ad7a7c9-1c19-4cc3-b1dc-d5fe1c441544" alt="TGbot-3"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/63f5c61f-09fe-491c-a6f0-2ac1731f51c9" alt="TGbot-4"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/c6f8cb60-944e-40c9-87e7-4a11d71c4654" alt="TGbot-5"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/fbb1420f-e323-4793-aab1-6f93b953fb0f" alt="TGbot-6"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-1.jpg" alt="telegram-bot-1"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-2.jpg" alt="telegram-bot-2"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-3.jpg" alt="telegram-bot-3"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-4.jpg" alt="telegram-bot-4"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-5.jpg" alt="telegram-bot-5"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-6.jpg" alt="telegram-bot-6"></td>
 </tr>
 </table>
 
@@ -254,7 +246,7 @@ If this work is useful to you, then support this work as a form of appreciation 
 <br><br>
 
 ## Disclaimer
-This application has been created by including third-party sources. Third parties here are service providers, whose services are in the form of libraries, frameworks, and others. I thank you very much for the service. It has proven to be very helpful and implementable.
+This application is the result of my work with my team and is not the result of plagiarism from other people's research or work, except those related to third party services which include: libraries, frameworks, and so on.
 
 <br><br>
 

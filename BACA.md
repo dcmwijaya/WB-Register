@@ -1,16 +1,8 @@
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?style=flat)](https://github.com/ellerbrock/open-source-badges/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://github.com/devancakra/WB-Register)
-[![Doi](https://img.shields.io/badge/Doi-http://dx.doi.org/10.30646/sinus.v19i2.531-blue.svg?logo=google-scholar&color=98FB98)](https://p3m.sinus.ac.id/jurnal/index.php/e-jurnal_SINUS/article/view/531)
-![GitHub Star](https://img.shields.io/github/stars/devancakra/WB-Register.svg?color=FF69B4)
-![GitHub Contributor](https://img.shields.io/github/contributors/devancakra/WB-Register.svg?color=FF8C00)
-![GitHub Forks](https://img.shields.io/github/forks/devancakra/WB-Register.svg?color=00CED1)
-![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/WB-Register)
-![HTML](https://img.shields.io/badge/HTML%20-light.svg?&style=flat&logo=html5&logoColor=%23F7DF1E&color=FF6347)
-![CSS](https://img.shields.io/badge/CSS%20-light.svg?&style=flat&logo=css3&logoColor=%23F7DF1E&color=1E90FF)
-![JS](https://img.shields.io/badge/Javascript%20-%23323330.svg?&style=flat&logo=javascript&logoColor=%23F7DF1E&color=008080)
-![MySQL](https://img.shields.io/badge/-MySQL-darkblue.svg?style=flat&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/-Bootstrap4-purple.svg?&logo=bootstrap&logoColor=white)
-![PHP](https://img.shields.io/badge/-PHP-grey.svg?&logo=PHP&logoColor=white)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?logo=github&color=%23F7DF1E)](https://opensource.org/licenses/MIT)
+![GitHub last commit](https://img.shields.io/github/last-commit/devancakra/WB-Register?logo=Codeforces&logoColor=white&color=%23F7DF1E)
+![Project](https://img.shields.io/badge/Project-Website-light.svg?style=flat&logo=googlechrome&logoColor=white&color=%23F7DF1E)
+![Type](https://img.shields.io/badge/Type-Campus%20Assignment-light.svg?style=flat&logo=gitbook&logoColor=white&color=%23F7DF1E)
 
 # WB-Register
 <strong>Tugas Akhir Pemrograman Web</strong><br>
@@ -175,7 +167,7 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 
 ## Permasalahan yang sering muncul
 1. Lupa menjalankan ``` apache ``` dan ``` sql ``` yang ada pada ``` XAMPP ``` atau bisa jadi ada permasalahan di ``` pengaturan Ngrok ``` anda. Contoh permasalahannya dapat anda lihat seperti gambar berikut ini:<br><br>
-<img width="960" alt="image" src="https://github.com/devancakra/WB-Register/assets/54527592/13fc5e6c-191d-4863-a491-6283a90dd385"><br><br>
+<img width="960" alt="image" src="assets/documentation/Issues.jpg" alt="issues"><br><br>
 
 2. Masalah yang biasanya terjadi pada bot telegram berbasis Botman adalah saat pengguna telah meninggalkan bot tersebut dalam rentang waktu yang lama, hal ini dapat mengakibatkan ``` API Token menjadi kadaluarsa ```. Masalah ini biasanya ditandai dengan keadaan ``` bot telegram yang tidak normal ```, misalnya ketika pengguna memberikan perintah ``` /start ``` ataupun perintah lainnya, bot ini tetap tidak merespon. Solusi dari permasalahan ini yaitu anda ``` hanya perlu membuat bot telegram yang baru lagi ``` (otomatis dapat API Token yang baru), selanjutnya untuk kode program silakan atur berdasarkan kebutuhan anda masing-masing.<br><br>
 
@@ -212,9 +204,9 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 <th width="280">Perbarui</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/92ac8c74-da70-4663-bf5d-21018bbde181" alt="create"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/b0f31465-6352-4297-b56d-c69524e509d0" alt="read"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/4b7309be-7381-437d-bb88-69fd70a779e3" alt="update"></td>
+<td><img src="assets/documentation/Create.jpg" alt="create"></td>
+<td><img src="assets/documentation/Read.jpg" alt="read"></td>
+<td><img src="assets/documentation/Update.jpg" alt="update"></td>
 </tr>
 </table>
 <table>
@@ -223,8 +215,8 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 <th width="420">Pencarian</th>
 </tr>
 <tr>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/ff4bcf13-164e-47f6-abaf-dba3f30f9423" alt="delete"></td>
-<td><img src="https://github.com/devancakra/WB-Register/assets/54527592/68a5ae62-1861-4609-82ac-738d2ff62ea4" alt="search"></td>
+<td><img src="assets/documentation/Delete.jpg" alt="delete"></td>
+<td><img src="assets/documentation/Search.jpg" alt="search"></td>
 </tr>
 </table>
 <table>
@@ -232,12 +224,12 @@ Membuat aplikasi multi platform: Website-Bot Register untuk pendaftaran anggota 
 <th colspan="6">Bot Telegram</th>
 </tr>
 <tr>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/4ae1a9b4-9f34-4da9-86ba-9dabe35d885f" alt="TGbot-1"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/1fbf850d-fd10-4255-9129-eb090de47331" alt="TGbot-2"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/6ad7a7c9-1c19-4cc3-b1dc-d5fe1c441544" alt="TGbot-3"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/63f5c61f-09fe-491c-a6f0-2ac1731f51c9" alt="TGbot-4"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/c6f8cb60-944e-40c9-87e7-4a11d71c4654" alt="TGbot-5"></td>
-<td width="140"><img src="https://github.com/devancakra/WB-Register/assets/54527592/fbb1420f-e323-4793-aab1-6f93b953fb0f" alt="TGbot-6"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-1.jpg" alt="telegram-bot-1"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-2.jpg" alt="telegram-bot-2"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-3.jpg" alt="telegram-bot-3"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-4.jpg" alt="telegram-bot-4"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-5.jpg" alt="telegram-bot-5"></td>
+<td width="140"><img src="assets/documentation/Telegram Bot View-6.jpg" alt="telegram-bot-6"></td>
 </tr>
 </table>
 
@@ -254,7 +246,7 @@ Jika karya ini bermanfaat bagi anda, maka dukunglah karya ini sebagai bentuk apr
 <br><br>
 
 ## Penafian
-Aplikasi ini dibuat dengan menyertakan sumber-sumber dari pihak ketiga. Pihak ketiga di sini adalah penyedia layanan, yang layanannya berupa pustaka, kerangka kerja, dan lain-lain. Saya ucapkan terima kasih banyak atas layanannya. Telah terbukti sangat membantu dan dapat diimplementasikan.
+Aplikasi ini merupakan hasil karya saya bersama tim saya dan bukan merupakan hasil plagiat dari penelitian atau karya orang lain, kecuali yang berkaitan dengan layanan pihak ketiga yang meliputi: pustaka, kerangka kerja, dan lain sebagainya.
 
 <br><br>
 
